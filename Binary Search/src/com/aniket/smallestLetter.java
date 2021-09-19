@@ -9,6 +9,7 @@ public class smallestLetter {
         char[] letters = {'c','f','j'};
         char target = 'a';
         System.out.println("Character at " + bssmallletter(letters, target));
+
     }
     static char bssmallletter(char[] letters, int target){
         int start = 0, end = letters.length, mid;
@@ -20,6 +21,7 @@ public class smallestLetter {
                 start = mid+1;
             }
         }
+
         return (letters[start % letters.length]);
     }
 }
