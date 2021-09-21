@@ -13,9 +13,7 @@ public class FindInMountainArray {
         int ans1 = ordAgnosticBS(arr, target, 0, peak);
         if( ans1 != -1) return ans1;
         else {
-            int ans2 = ordAgnosticBS(arr, target, peak+1, arr.length-1);
-            if( ans2 != -1) return ans2;
-            else return -1;
+            return  ordAgnosticBS(arr, target, peak+1, arr.length-1);
         }
     }
 
