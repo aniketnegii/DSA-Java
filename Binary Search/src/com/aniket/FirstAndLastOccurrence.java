@@ -19,7 +19,7 @@ public class FirstAndLastOccurrence {
     }
 
     static int binarySearchModified(int[] arr, int target, boolean findStart){
-        int start = 0, end = arr.length, mid, ans = -1;
+        int start = 0, end = arr.length - 1, mid, ans = -1;
         while( start <= end){
             mid = start + (end-start)/2;
             if(arr[mid] == target) {
