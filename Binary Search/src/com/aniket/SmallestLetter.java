@@ -3,7 +3,7 @@ package com.aniket;
 import java.util.Scanner;
 
 //https://leetcode.com/problems/find-smallest-letter-greater-than-target/
-public class smallestLetter {
+public class SmallestLetter {
     public static void main(String[] args) {
 
         char[] letters = {'c','f','j'};
@@ -12,7 +12,7 @@ public class smallestLetter {
 
     }
     static char bssmallletter(char[] letters, int target){
-        int start = 0, end = letters.length, mid;
+        int start = 0, end = letters.length - 1, mid;
         while(start < end){
             mid = start + (end-start) / 2;
             if( letters[mid] > target ){
