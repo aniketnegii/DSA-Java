@@ -11,10 +11,8 @@ public class FirstAndLastOccurrence {
     static int[] findOccurrence(int[] arr, int target){
 
         int[] ans = {-1, -1};
-        int first = binarySearchModified(arr, target, true);
-        int last = binarySearchModified(arr, target, false);
-        ans[0] = first;
-        ans[1] = last;
+        ans[0] = binarySearchModified(arr, target, true);
+        ans[1] = binarySearchModified(arr, target, false);
         return ans;
     }
 
