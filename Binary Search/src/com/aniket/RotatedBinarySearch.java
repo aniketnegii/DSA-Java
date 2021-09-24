@@ -61,7 +61,7 @@ public class RotatedBinarySearch {
             if( mid>start && arr[mid] < arr[mid -1]){
                 return mid-1;
             }
-            if( mid == start && mid == end){
+            if( arr[mid] == arr[start] && arr[mid] == arr[end]){
                 if(arr[start] > arr[start + 1]){
                     return start;
                 }
