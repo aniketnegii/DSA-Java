@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc785efa-0dde-4858-a371-ec93172a8b63" name="Changes" comment="Prime NUmbers">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prime Number.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Binary Search/out/production/Binary Search/com/aniket/RotatedBinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Binary Search/out/production/Binary Search/com/aniket/RotatedBinarySearch.class" afterDir="false" />
-    </list>
+    <list default="true" id="cc785efa-0dde-4858-a371-ec93172a8b63" name="Changes" comment="Prime NUmbers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,6 +97,29 @@
       <option name="presentableId" value="Default" />
       <updated>1633069826622</updated>
     </task>
+    <task id="LOCAL-00001" summary="Prime NUmbers">
+      <created>1633242352920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633242352920</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prime NUmbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prime NUmbers" />
   </component>
 </project>
