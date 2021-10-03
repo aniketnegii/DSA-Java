@@ -10,6 +10,7 @@ public class Main {
                     1. how many cols are there
                     2. types of elements in col
         Step 3 : What do you need to print
+        NOTE: try and find the formula relating row and column
         */
 //        1.  *****
 //            *****
