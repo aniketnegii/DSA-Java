@@ -28,7 +28,6 @@ public class Main {
                     prime[i] = false;
             }
         }
-
         // Print all prime numbers
         int ans = 0;
         for(int i = 2; i <= n; i++)
